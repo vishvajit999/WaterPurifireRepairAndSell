@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Patil",
+    "designation": "Hinjewadi",
+    "review": "Very good experience overall. The work was done on time and the staff was polite and professional. I would surely recommend them to my friends in Hinjewadi.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sneha Kulkarni",
+    "designation": "Marunji",
+    "review": "Quick response and smooth process from start to finish. They explained everything clearly and the charges were reasonable. I am happy with their service.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Akash Shinde",
+    "designation": "Wakad",
+    "review": "I am fully satisfied with the quality of work. They arrived on time and completed everything without any issues. Definitely trustworthy and reliable team.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Priya Deshmukh",
+    "designation": "Baner",
+    "review": "Affordable and fast service at my home in Baner. The staff was very helpful and friendly throughout the process. I would recommend them for sure.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Rohan Jadhav",
+    "designation": "Karvenagar",
+    "review": "Smooth work without any delays or extra charges. The team was very polite and did exactly what they promised. I am really impressed with their professionalism.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Pooja More",
+    "designation": "Khandevadi",
+    "review": "Very prompt service and polite staff. They listened to all my concerns and addressed them properly. Good job by the entire team at Khandevadi.",
+    "rating": 4
+  },
+  {
+    "id": 7,
+    "name": "Vishal Pawar",
+    "designation": "Bavdhan",
+    "review": "Highly professional and well-trained team. They finished the work neatly and left no mess behind. I am very satisfied with their dedication and hard work.",
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "name": "Komal Bhosale",
+    "designation": "Shiv Nagar",
+    "review": "Booking was quick and the service was delivered right on time. The entire process was hassle-free and smooth. I appreciate their commitment and quality.",
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "name": "Sameer Gaikwad",
+    "designation": "Warje",
+    "review": "Trustworthy people with reasonable rates. They completed the work exactly as per my expectations and even guided me with helpful tips. I would definitely call them again.",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "name": "Aarti Chavan",
+    "designation": "Katraj",
+    "review": "Fast and neat work without any complaints. The staff behaved well and finished the job on the same day. I will suggest them to my relatives too.",
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "name": "Swapnil Salunkhe",
+    "designation": "Swargate",
+    "review": "Very cooperative team and clear communication at each step. They were patient with my questions and delivered excellent service. Good experience at Swargate.",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "name": "Manisha Kadam",
+    "designation": "Aundh",
+    "review": "Supportive staff and smooth process from booking to completion. They were punctual and kept me updated throughout. Very happy with their honest work.",
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "name": "Nilesh Khandekar",
+    "designation": "Ravet",
+    "review": "Excellent service quality and timely delivery. They know exactly what the customer needs and work accordingly. I am very satisfied and would hire them again.",
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "name": "Rutuja Sonawane",
+    "designation": "Tathawade",
+    "review": "Good customer support and neat finishing of the work. They handled my requests carefully and did not rush. Very genuine and polite staff in Tathawade.",
+    "rating": 4
+  },
+  {
+    "id": 15,
+    "name": "Sachin Gawade",
+    "designation": "Hinjewadi",
+    "review": "They did everything exactly as promised without any excuses. No hidden costs and transparent billing. Overall, a good experience for my family.",
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "name": "Meenal Shinde",
+    "designation": "Marunji",
+    "review": "Polite team and reasonable charges. They handled all the work with care and did not leave any mess behind. Good service in Marunji area.",
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "name": "Rakesh Dhore",
+    "designation": "Wakad",
+    "review": "Professional approach and quick service delivery. They finished everything before the deadline and did a quality check too. Truly appreciate their effort.",
+    "rating": 5
+  },
+  {
+    "id": 18,
+    "name": "Neha Kharde",
+    "designation": "Baner",
+    "review": "Timely service and transparent charges with no surprises. The staff was humble and listened patiently to all my questions. Highly recommended.",
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "name": "Jayesh Sathe",
+    "designation": "Karvenagar",
+    "review": "Very happy with their work and the way they handle customers. They stick to the schedule and do not compromise on quality. Great team to work with.",
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "name": "Shraddha Shelke",
+    "designation": "Aundh",
+    "review": "Easy booking, on-time arrival and neat work with proper finishing. The team was friendly and cooperative throughout. I strongly recommend them to everyone in Aundh.",
+    "rating": 5
+  }
+]

@@ -1,0 +1,108 @@
+/* Container & Layout */
+.introduction-container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 50px;
+  background-color: #ffffff;
+  gap: 90px;
+}
+
+.introduction-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.history-text {
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.introduction-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.introduction-description {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.introduction-details {
+  padding: 20px 0;
+  text-align: justify;
+  margin: 20px 0;
+  color: #555;
+}
+
+.find-more-btn {
+  border: 1px solid black;
+  color: black;
+  margin-top: 10px;
+  
+}
+
+/* Image Wrapper & Decorative Border */
+introduction-image-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 45%;
+
+  /* ✅ NEW: Make it a flex container and center its content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.internal-block img {
+  width: 300px;
+  height: 400px;
+  display: block;
+  position: relative;
+  z-index: 2;
+border: 2px solid rgb(0, 102, 177);
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  /* ✅ Only top-left & bottom-right curved */
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-right: 20px;
+}
+
+.border-box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+width: 300px;
+  height: 400px;
+border: 20px solid rgb(0, 102, 177);
+  box-sizing: border-box;
+  z-index: 1;
+    border-top-left-radius: 150px;
+  border-bottom-right-radius: 190px;
+}
+
+/* ✅ Animation: Slide in directions */
+
+/* Paragraphs: slide in from left */
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 3s ease;
+}
+
+.fade-in-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Image: slide in from right */
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 3s ease;
+}
+
+.fade-in-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}

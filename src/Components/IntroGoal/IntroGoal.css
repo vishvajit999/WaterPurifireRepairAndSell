@@ -1,0 +1,111 @@
+/* ✅ Container & Layout - unique class names */
+.introgoal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ffffff;
+  
+}
+
+.introgoal-text {
+  flex: 1;
+  max-width: 50%;
+  margin-right: 80px;
+}
+
+.introgoal-history-text {
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.introgoal-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.introgoal-description {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.introgoal-details {
+  padding: 20px 0;
+  text-align: justify;
+  margin: 20px 0;
+  color: #555;
+}
+
+.introgoal-find-more-btn {
+  border: 1px solid black;
+  color: black;
+  margin-top: 10px;
+}
+
+.introgoal-image-wrapper {
+  position: relative;
+  flex: 1;
+  max-width: 45%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introgoal-internal-block img {
+  width: 300px;
+  height: 400px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  border: 2px solid rgb(0, 102, 177);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+
+  /* One side curved, one side sharp for IntroGoal */
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  margin-right: 20px;
+}
+
+.introgoal-border-box {
+  position: absolute;
+  top: 44px;
+  left: 83px;
+  width: 300px;
+  height: 400px;
+  border: 20px solid rgb(0, 102, 177);
+  box-sizing: border-box;
+  z-index: 1;
+
+  /* Match same shape */
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 190px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Animations (same names, shared for convenience) */
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 3s ease;
+}
+
+.fade-in-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 3s ease;
+}
+
+.fade-in-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}

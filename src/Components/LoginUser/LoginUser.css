@@ -1,0 +1,51 @@
+/* LoginUser.css */
+
+.login-container {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 10px;
+box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+
+  background-color: white;
+  
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.login-input input {
+  padding: 6px 10px;        /* Smaller padding */
+  font-size: 14px;          /* Smaller text */
+  height: 30px;             /* Controls height */
+}
+
+.login-input {
+    margin-bottom: 12px; 
+  margin: 2px 0;
+}
+
+
+.login-button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #1976d2;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #155fa0;
+}
+
+.social-text {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.social-buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

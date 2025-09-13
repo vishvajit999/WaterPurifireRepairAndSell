@@ -1,0 +1,122 @@
+/* Flip Container */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 450px;
+  perspective: 1000px;
+  margin-bottom: 24px;
+}
+
+/* Flip Animation */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Flip on Hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* ⬅️ stronger, darker, more spread */
+}
+
+
+/* Front & Back Faces */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Front Side */
+.flip-card-front {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+/* Back Side */
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Card Styling */
+.price-card {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 20%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+/* Equal Blue Box Styling */
+.price-card-bluebox {
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Title */
+.price-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0066ff;
+  margin: 0;
+}
+
+/* Divider */
+.price-card-divider {
+  background-color: red;
+  height: 2px;
+  margin-bottom: 16px;
+}
+
+/* Description */
+.price-card-description {
+  font-size: 14px;
+  text-align: left;
+  flex-grow: 1;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Feature Row */
+.price-card-feature {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Button */
+.price-card-button {
+  margin-top: 16px;
+  background-color: #0066ff !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}

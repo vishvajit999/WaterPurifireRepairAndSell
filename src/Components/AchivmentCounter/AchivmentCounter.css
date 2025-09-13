@@ -1,0 +1,74 @@
+/* Container with background */
+.Achievement-Container {
+  width: 100%;
+    background-size: 100% 300px; 
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Header styling */
+.Achievement-Header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.Achievement-Title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Achievement-Subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Box row */
+.AchivmentBox {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Each card */
+.SubAchivment {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.SubAchivment:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon styling */
+.AchivmentIcon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Animated counter */
+.Achivment-Count {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e91e63; /* eye-catching pink */
+  margin-bottom: 5px;
+}
+
+/* Card title */
+.Achivment-CardTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}

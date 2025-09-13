@@ -1,0 +1,114 @@
+.carousel-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.slider-wrapper {
+  display: flex;            /* ✅ Flex row */
+  align-items: center;      /* ✅ Vertically center slider + arrows */
+  position: relative;       /* ✅ Context for arrows */
+  width: 100%;
+}
+
+.slick-slider {
+  width: 100%;              /* ✅ Ensure slider uses full width inside flex */
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  background: #ffffffcc;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.arrow:hover {
+  background: #ffffff;
+}
+
+.prev-arrow {
+  left: -30px;
+}
+
+.next-arrow {
+  right: -30px;
+}
+
+.testimonial-card {
+    
+  margin: 10px;
+  border-radius: 16px;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  overflow: visible;
+  background: transparent; /* ✅ Gradient shows through */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* ✅ Original shadow */
+  height: 240px; /* ✅ Fixed height for equal card size */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.avatar-placeholder i {
+  font-size: 18px;
+}
+
+.client-name {
+  font-weight: 600;
+}
+
+.review-text {
+  flex: 1; 
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rating .star {
+  color: #ffb400;
+}
+
+.blue-card {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+}
+
+.purple-card {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: #fff;
+}
+
+.slick-slide {
+  padding: 10px;
+}

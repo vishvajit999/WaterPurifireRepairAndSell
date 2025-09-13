@@ -1,0 +1,72 @@
+.mainBox {
+  display: flex;             
+  align-items: stretch; 
+    
+}
+
+.plumber {
+  height: 300px;             
+  width: auto;               
+}
+
+.ExpertSuggestion {
+  display: flex;             
+   flex: 1;
+   padding-right: 40px;                    
+}
+
+.ExpertSuggestion > div {
+  flex: 1;                   
+       
+  display: flex;             
+  flex-direction: column;    /* stack vertically: heading + optional content */
+  align-items: center;       
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  padding: 20px;
+  position: relative;        
+}
+
+.ExpertSuggestion > div:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;             
+  top: 20%;            
+  bottom: 20%;         
+  width: 2px;          
+ border-left: 2px solid rgb(146, 144, 144);  
+
+}
+
+.heading-container {
+  margin: 0; /* reset default margins */
+  color: rgb(0, 26, 255);
+}
+
+.box-content {
+
+    text-align: justify;
+    padding-top: 15px;
+}
+.afford{
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* or center */
+}
+
+.top-row {
+  display: flex;   /* ✅ put image + heading in same line */
+  align-items: center;
+  
+}
+
+
+.description {
+ 
+  text-align: justify;
+}

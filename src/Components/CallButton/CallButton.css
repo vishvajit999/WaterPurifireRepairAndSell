@@ -1,0 +1,87 @@
+.call-button-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone button - rotating */
+.pulse-button {
+  width: 40px;
+  height: 40px;
+  background-color: #e6f0ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007BFF;
+  font-size: 32px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.5);
+
+  animation: ring 1s infinite;
+}
+
+/* Pulse waves */
+.pulse-ring {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(11, 12, 12, 0.2);
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.pulse-ring:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.pulse-ring:nth-child(2) {
+  animation-delay: 0.5s; /* starts while 1st is running */
+}
+
+.pulse-ring:nth-child(3) {
+  animation-delay: 1s; /* starts while 2nd is running */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+  40% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  70% {
+    transform: scale(1.5);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Phone rotation animation */
+@keyframes ring {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-15deg); }
+  30% { transform: rotate(10deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(5deg); }
+  60% { transform: rotate(-5deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+.call-button-link {
+  text-decoration: none;
+  color: inherit; /* Use parent text color, or your icon color */
+}

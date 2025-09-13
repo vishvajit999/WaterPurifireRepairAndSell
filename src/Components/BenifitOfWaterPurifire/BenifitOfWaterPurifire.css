@@ -1,0 +1,80 @@
+/* BenifitOfWaterPurifire.css */
+
+.floating-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(8px);
+  z-index: 0;
+}
+
+.floating-content {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 1;
+}
+
+.left-side {
+  flex: 0 0 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* 👈 Stack purifier above stairs */
+  justify-content: center;
+  align-items: center;
+   margin-bottom: -110px;
+}
+
+.purifier-image {
+  width: 70%;
+  animation: floatUpDown 2s infinite alternate ease-in-out;
+  position: relative;
+  z-index: 2;
+    margin-bottom: 80px;
+}
+
+.stairs-image {
+  position: absolute;
+  bottom: -60px;
+height: 600px;
+    width: 691px;
+  z-index: 1;
+}
+
+.right-side {
+  flex: 0 0 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 20px;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}

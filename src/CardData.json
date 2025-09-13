@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Silver Plan",
+    "description": "One of the basic plans covering two services annually from expert. Membrane, electric parts and faulty parts are not covered.",
+    "features": [
+      { "text": "Two Free RO Service Annually", "included": true },
+      { "text": "Filter Replacement", "included": false },
+      { "text": "Membrane", "included": false },
+      { "text": "Electric parts", "included": false },
+      { "text": "Faulty Parts", "included": false }
+    ],
+    "buttonText": "Call Now"
+  },
+  {
+    "title": "Golden Plan",
+    "description": "Moderate plan covering Three annual service, one time filter replacement and electric part replacement.",
+    "features": [
+      { "text": "Two Free RO Service Annually", "included": true },
+      { "text": "Filter Replacement", "included": true },
+      { "text": "Membrane", "included": true },
+      { "text": "Electric parts", "included": false },
+      { "text": "Faulty Parts", "included": false }
+    ],
+    "buttonText": "Call Now"
+  },
+  {
+    "title": "Platinum Plan",
+    "description": "Expert plans covering three annual service, one time filter, membrane, electric part as well as faulty part replacement.",
+    "features": [
+      { "text": "Two Free RO Service Annually", "included": true },
+      { "text": "Filter Replacement", "included": true },
+      { "text": "Membrane", "included": true },
+      { "text": "Electric parts", "included": true },
+      { "text": "Faulty Parts", "included": true }
+    ],
+    "buttonText": "Call Now"
+  }
+]
