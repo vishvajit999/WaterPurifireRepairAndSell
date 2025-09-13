@@ -73,15 +73,15 @@ const Footer = () => {
                 <Stack direction="row" spacing={1} alignItems="flex-start">
                   <PhoneIcon fontSize="small" />
                   <Stack direction="column" spacing={0.5}>
-                    <Typography variant="body2">+91 9096209951</Typography>
-                    <Typography variant="body2">+91 8830531184</Typography>
+                    <Typography variant="body2" className="white-text">+91 9096209951</Typography>
+                    <Typography variant="body2" className="white-text">+91 8830531184</Typography>
                   </Stack>
                 </Stack>
                 <Stack direction="row" spacing={1} alignItems="flex-start">
                   <EmailIcon fontSize="small" />
                   <Stack direction="column" spacing={0.5}>
-                    <Typography variant="body2">info@sagar.com</Typography>
-                    <Typography variant="body2">service@sagar.com</Typography>
+                    <Typography variant="body2" className="white-text">info@sagar.com</Typography>
+                    <Typography variant="body2" className="white-text">service@sagar.com</Typography>
                   </Stack>
                 </Stack>
               </Stack>

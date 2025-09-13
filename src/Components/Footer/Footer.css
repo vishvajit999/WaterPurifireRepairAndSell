@@ -192,6 +192,7 @@ footer {
 .para {
   margin: 0;    /* ✅ removes default margin */
   padding: 0;   /* optional: removes default padding too */
+  color: white;
 }
 
 /* ✅ Smooth shrink effect on hover for social media & payment icons */
@@ -199,4 +200,7 @@ footer {
 .social-icon:hover {
   transform: scale(0.9);           /* shrink to 90% */
   transition: transform 0.3s ease; /* smooth transition */
+}
+.white-text {
+  color: white;
 }
